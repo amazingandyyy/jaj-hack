@@ -11,4 +11,10 @@ app.get('/', (req, res)=> {
         repo: "https://github.com/amazingandyyy/jaj-hack"
     })
 })
+
+app.get('/incoming-sms', (req, res)=> {
+    console.log(req.query);
+    res.sendStatus(200);
+})
+
 app.listen(8000, err => console.log(err || 'Listent on 8000'));

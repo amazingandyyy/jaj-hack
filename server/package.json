@@ -2,11 +2,14 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/index.js",
-    "build": "babel --watch src/index.js dist/",
+    "now-start": "node server.js",
+    "start": "node server.js",
+    "deploy":"npm run babel && now",
+    "babel": "babel src/index.js --out-file ./server.js",
+    "build-watch": "babel --watch src/index.js --out-file ./server.js",
     "dev": "babel-watch src/index.js"
   },
   "author": "",
