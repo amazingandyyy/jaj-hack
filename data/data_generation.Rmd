@@ -3,9 +3,12 @@ title: "SF Disrupt"
 output: html_notebook
 ---
 
+# Location
+
 ```{r}
 geodata <- data.frame(
   SenderID = character(),
+  
   Time = character(),
   Longitude = character(),
   Latitude = character()
@@ -17,8 +20,8 @@ senders <- paste(
   sep = "-"
 )
 
-llCenter <- c(29.8159954, -95.9617495)
-llScale <- 1e-5
+llCenter <- c(29.8159954, -95.9617495) # Houston
+llScale <- 1e-6
 
 set.seed(12321)
 
@@ -43,3 +46,62 @@ geodata <- geodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]
 write.csv(geodata, "geodata.csv")
 ```
 
+# Nexmo
+
+```{r}
+nexmodata <- data.frame(
+  msisdn = character(),
+  to = character(),
+  messageId = character(),
+  text = character(),
+  type = character(),
+  keyword = character(),
+  message_timestamp = character()
+)
+
+virtualNum <- "18885975960"
+
+# llCenter <- c(29.8159954, -95.9617495) # Houston
+# llScale <- 1e-6
+
+randomText <- readLines("randomText.txt")
+randomText <- paste(randomText, collapse = " ")
+randomText <- unlist(strsplit(randomText, " "))
+
+areacodes <- read.csv("area-codes.csv", stringsAsFactors = F)
+areacodes <- areacodes[areacodes$Region == "CA",]
+
+set.seed(12343221)
+
+for (i in 1:1000){
+  tmpll <- round(llCenter + (llScale*llCenter*runif(1)), 7)
+  
+  textSel <- sample.int(length(randomText), 1)
+  textSel <- c(textSel, textSel + sample.int(7))
+  textSel[textSel > length(randomText)] <-
+    textSel[textSel > length(randomText)] - length(randomText)
+
+  tmpRow <- data.frame(
+    msisdn = paste("1", sample(areacodes$Area.Code, 1),
+                   paste(sample(c(0:9), 7, T), collapse = ""), sep = ""),
+    to = virtualNum,
+    messageId = paste(sample(c(0:9, LETTERS[1:6]), 16, T), collapse = ""),
+    text = paste(randomText[textSel], collapse = " "),
+    type = "text",
+    keyword = randomText[textSel[1]],
+    message_timestamp = as.character(Sys.time() + runif(1)*1e+3)
+  )
+  nexmodata <- rbind(nexmodata, tmpRow)
+}
+
+nexmodata <- nexmodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]
+```
+
+## Export
+
+```{r}
+library(RJSONIO)
+write(toJSON(nexmodata), "nexmodata.json")
+
+write.csv(nexmodata, "nexmodata.csv")
+```
