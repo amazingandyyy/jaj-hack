@@ -1,0 +1,155 @@
+[2017-09-16 16:31:45.086] [INFO] repo - Read repository items: /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets
+[2017-09-16 16:31:45.839] [INFO] repo - insert HTML.About
+[2017-09-16 16:31:45.840] [INFO] app - Find 6 predfinded apps.
+[2017-09-16 16:31:45.840] [INFO] repo - insert HTML.AddData
+[2017-09-16 16:31:45.841] [INFO] repo - insert HTML.Analysis
+[2017-09-16 16:31:45.842] [INFO] repo - insert HTML.AttributeTable
+[2017-09-16 16:31:45.842] [INFO] repo - insert HTML.BasemapGallery
+[2017-09-16 16:31:45.845] [INFO] repo - insert HTML.BatchAttributeEditor
+[2017-09-16 16:31:45.845] [INFO] repo - insert HTML.Bookmark
+[2017-09-16 16:31:45.847] [INFO] repo - insert HTML.Chart
+[2017-09-16 16:31:45.848] [INFO] repo - insert HTML.Coordinate
+[2017-09-16 16:31:45.849] [INFO] repo - insert HTML.CoordinateConversion
+[2017-09-16 16:31:45.853] [INFO] repo - insert HTML.Directions
+[2017-09-16 16:31:45.853] [INFO] repo - insert HTML.DistrictLookup
+[2017-09-16 16:31:45.854] [INFO] repo - insert HTML.Draw
+[2017-09-16 16:31:45.854] [INFO] repo - insert HTML.Edit
+[2017-09-16 16:31:45.855] [INFO] repo - insert HTML.ExtentNavigate
+[2017-09-16 16:31:45.855] [INFO] repo - insert HTML.Filter
+[2017-09-16 16:31:45.856] [INFO] repo - insert HTML.FullScreen
+[2017-09-16 16:31:45.857] [INFO] repo - insert HTML.GeoLookup
+[2017-09-16 16:31:45.858] [INFO] repo - insert HTML.Geoprocessing
+[2017-09-16 16:31:45.858] [INFO] repo - insert HTML.GridOverlay
+[2017-09-16 16:31:45.859] [INFO] repo - insert HTML.GroupFilter
+[2017-09-16 16:31:45.859] [INFO] repo - insert HTML.HomeButton
+[2017-09-16 16:31:45.860] [INFO] repo - insert HTML.ImageMeasurement
+[2017-09-16 16:31:45.861] [INFO] repo - insert HTML.IncidentAnalysis
+[2017-09-16 16:31:45.861] [INFO] repo - insert HTML.InfoSummary
+[2017-09-16 16:31:45.861] [INFO] repo - insert HTML.Infographic
+[2017-09-16 16:31:45.862] [INFO] repo - insert HTML.LayerList
+[2017-09-16 16:31:45.862] [INFO] repo - insert HTML.Legend
+[2017-09-16 16:31:45.863] [INFO] repo - insert HTML.Measurement
+[2017-09-16 16:31:45.864] [INFO] repo - insert HTML.MyLocation
+[2017-09-16 16:31:45.864] [INFO] repo - insert HTML.NearMe
+[2017-09-16 16:31:45.865] [INFO] repo - insert HTML.ObliqueViewer
+[2017-09-16 16:31:45.866] [INFO] repo - insert HTML.OverviewMap
+[2017-09-16 16:31:45.866] [INFO] repo - insert HTML.ParcelDrafter
+[2017-09-16 16:31:45.868] [INFO] repo - insert HTML.Print
+[2017-09-16 16:31:45.869] [INFO] repo - insert HTML.Query
+[2017-09-16 16:31:45.871] [INFO] repo - insert HTML.RelatedTableCharts
+[2017-09-16 16:31:45.871] [INFO] repo - insert HTML.ReportFeature
+[2017-09-16 16:31:45.872] [INFO] repo - insert HTML.ReviewerDashboard
+[2017-09-16 16:31:45.872] [INFO] repo - insert HTML.Scalebar
+[2017-09-16 16:31:45.873] [INFO] repo - insert HTML.Screening
+[2017-09-16 16:31:45.875] [INFO] repo - insert HTML.Search
+[2017-09-16 16:31:45.875] [INFO] repo - insert HTML.Select
+[2017-09-16 16:31:45.875] [INFO] repo - insert HTML.Share
+[2017-09-16 16:31:45.876] [INFO] repo - insert HTML.SituationAwareness
+[2017-09-16 16:31:45.876] [INFO] repo - insert HTML.SmartEditor
+[2017-09-16 16:31:45.877] [INFO] repo - insert HTML.Splash
+[2017-09-16 16:31:45.877] [INFO] repo - insert HTML.Stream
+[2017-09-16 16:31:45.878] [INFO] repo - insert HTML.SuitabilityModeler
+[2017-09-16 16:31:45.878] [INFO] repo - insert HTML.Summary
+[2017-09-16 16:31:45.878] [INFO] repo - insert HTML.Swipe
+[2017-09-16 16:31:45.879] [INFO] repo - insert HTML.TimeSlider
+[2017-09-16 16:31:45.880] [INFO] repo - insert HTML.ZoomSlider
+[2017-09-16 16:31:45.882] [INFO] repo - Read repository items: /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes
+[2017-09-16 16:31:46.140] [INFO] repo - insert HTML.DartTheme
+[2017-09-16 16:31:46.141] [INFO] repo - insert HTML.BillboardTheme
+[2017-09-16 16:31:46.142] [INFO] repo - insert HTML.FoldableTheme
+[2017-09-16 16:31:46.143] [INFO] repo - insert HTML.BoxTheme
+[2017-09-16 16:31:46.144] [INFO] repo - insert HTML.JewelryBoxTheme
+[2017-09-16 16:31:46.145] [INFO] repo - insert HTML.DashboardTheme
+[2017-09-16 16:31:46.145] [INFO] repo - insert HTML.LaunchpadTheme
+[2017-09-16 16:31:46.146] [INFO] repo - insert HTML.TabTheme
+[2017-09-16 16:31:46.147] [INFO] repo - insert HTML.PlateauTheme
+[2017-09-16 16:31:46.148] [INFO] repo - Read repository items: /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp3d/widgets
+[2017-09-16 16:31:46.502] [INFO] repo - insert HTML3D.3DFx
+[2017-09-16 16:31:46.502] [INFO] repo - insert HTML3D.About
+[2017-09-16 16:31:46.502] [INFO] repo - insert HTML3D.Compass
+[2017-09-16 16:31:46.503] [INFO] repo - insert HTML3D.Coordinate
+[2017-09-16 16:31:46.503] [INFO] repo - insert HTML3D.Environment
+[2017-09-16 16:31:46.503] [INFO] repo - insert HTML3D.FullScreen
+[2017-09-16 16:31:46.504] [INFO] repo - insert HTML3D.BasemapGallery
+[2017-09-16 16:31:46.504] [INFO] repo - insert HTML3D.LayerList
+[2017-09-16 16:31:46.505] [INFO] repo - insert HTML3D.Home
+[2017-09-16 16:31:46.505] [INFO] repo - insert HTML3D.Navigate
+[2017-09-16 16:31:46.506] [INFO] repo - insert HTML3D.MyLocation
+[2017-09-16 16:31:46.506] [INFO] repo - insert HTML3D.Search
+[2017-09-16 16:31:46.506] [INFO] repo - insert HTML3D.Legend
+[2017-09-16 16:31:46.507] [INFO] repo - insert HTML3D.Splash
+[2017-09-16 16:31:46.507] [INFO] repo - insert HTML3D.ZoomSlider
+[2017-09-16 16:31:46.508] [INFO] repo - insert HTML3D.Slides
+[2017-09-16 16:31:46.508] [INFO] repo - Read repository items: /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp3d/themes
+[2017-09-16 16:31:46.683] [INFO] repo - insert HTML3D.FoldableTheme
+[2017-09-16 16:31:46.684] [INFO] repo - insert HTML3D.BillboardTheme
+[2017-09-16 16:31:46.685] [INFO] repo - insert HTML3D.LaunchpadTheme
+[2017-09-16 16:31:46.685] [INFO] repo - insert HTML3D.JewelryBoxTheme
+[2017-09-16 16:31:46.686] [INFO] repo - insert HTML3D.TabTheme
+[2017-09-16 16:31:46.686] [INFO] repo - insert HTML3D.BoxTheme
+[2017-09-16 16:31:46.687] [INFO] repo - insert HTML3D.DartTheme
+[2017-09-16 16:32:03.656] [INFO] server - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2017-09-16 16:32:03.681] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-09-16 16:39:42.235] [INFO] server - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2017-09-16 16:39:42.250] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-09-16 16:44:36.626] [INFO] server - No token is found, redirect /webappbuilder/ to /webappbuilder/?action=setportalurl
+[2017-09-16 16:44:36.714] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-09-16 16:46:22.038] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-09-16 16:47:12.962] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/jimu.js
+[2017-09-16 16:47:13.748] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/images
+[2017-09-16 16:47:13.753] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/libs
+[2017-09-16 16:47:13.804] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/index.html
+[2017-09-16 16:47:13.805] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/env.js
+[2017-09-16 16:47:13.806] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/simpleLoader.js
+[2017-09-16 16:47:13.807] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/init.js
+[2017-09-16 16:47:13.808] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/web.config
+[2017-09-16 16:47:13.809] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/dynamic-modules
+[2017-09-16 16:47:13.812] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/readme.html
+[2017-09-16 16:47:13.813] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/config-readme.txt
+[2017-09-16 16:47:13.814] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/configs
+[2017-09-16 16:47:13.820] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/.jshintrc
+[2017-09-16 16:47:13.821] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/.jshintignore
+[2017-09-16 16:47:13.822] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/3rd-party-license.txt
+[2017-09-16 16:47:13.841] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/FoldableTheme
+[2017-09-16 16:47:13.950] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Scalebar
+[2017-09-16 16:47:14.021] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Search
+[2017-09-16 16:47:14.090] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Coordinate
+[2017-09-16 16:47:14.154] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/OverviewMap
+[2017-09-16 16:47:14.225] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/HomeButton
+[2017-09-16 16:47:14.257] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/MyLocation
+[2017-09-16 16:47:14.335] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/AttributeTable
+[2017-09-16 16:47:14.480] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Splash
+[2017-09-16 16:47:14.650] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/ZoomSlider
+[2017-09-16 16:47:14.718] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/ExtentNavigate
+[2017-09-16 16:47:14.822] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/FullScreen
+[2017-09-16 16:47:14.906] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Legend
+[2017-09-16 16:47:15.092] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/LayerList
+[2017-09-16 16:47:16.059] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-09-16 16:48:12.123] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/BillboardTheme
+[2017-09-16 16:48:14.233] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/BoxTheme
+[2017-09-16 16:48:18.122] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/DartTheme
+[2017-09-16 16:48:19.677] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/TabTheme
+[2017-09-16 16:48:22.391] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/PlateauTheme
+[2017-09-16 16:48:24.266] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/DashboardTheme
+[2017-09-16 16:48:27.588] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes/LaunchpadTheme
+[2017-09-16 16:49:28.076] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Directions
+[2017-09-16 16:54:39.427] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/IncidentAnalysis
+[2017-09-16 16:55:36.307] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/NearMe
+[2017-09-16 17:00:03.412] [INFO] app - remove theme BillboardTheme from app 2
+[2017-09-16 17:00:03.449] [INFO] app - remove theme BoxTheme from app 2
+[2017-09-16 17:00:03.493] [INFO] app - remove theme DartTheme from app 2
+[2017-09-16 17:00:03.539] [INFO] app - remove theme DashboardTheme from app 2
+[2017-09-16 17:00:03.585] [INFO] app - remove theme FoldableTheme from app 2
+[2017-09-16 17:00:03.640] [INFO] app - remove theme LaunchpadTheme from app 2
+[2017-09-16 17:00:03.687] [INFO] app - remove theme PlateauTheme from app 2
+[2017-09-16 17:00:03.711] [INFO] app - remove widget Directions from app 2
+[2017-09-16 17:00:03.740] [INFO] app - remove widget NearMe from app 2
+[2017-09-16 17:00:04.690] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-09-16 17:00:12.129] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-09-16 17:00:27.601] [INFO] server - Set isXT = true; /webappbuilder/stemapp/env.js
+[2017-09-16 17:00:29.809] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js
+[2017-09-16 17:00:40.771] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/NearMe
+[2017-09-16 17:06:32.645] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Directions
+[2017-09-16 17:22:07.472] [DEBUG] utils - copy /Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets/Analysis
+[2017-09-16 17:23:24.054] [INFO] app - remove widget NearMe from app 2
+[2017-09-16 17:54:08.727] [INFO] server - Set isXT = true; /webappbuilder/apps/2/env.js

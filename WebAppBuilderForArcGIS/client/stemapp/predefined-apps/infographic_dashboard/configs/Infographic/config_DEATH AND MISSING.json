@@ -1,0 +1,172 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "06460437102270156-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "06460437102270156-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 73.77669678535219,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "06460437102270156-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "06460437102270156-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 11.188882924792745,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "06460437102270156-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "06460437102270156-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "06460437102270156-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "DEATH AND MISSING"
+      }
+    },
+    {
+      "id": "06460437102270156-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "category",
+        "type": "line",
+        "categoryField": "INCIDENTREGION",
+        "operation": "average",
+        "valueFields": [
+          "DEAD",
+          "MISSING"
+        ],
+        "sortOrder": "asc",
+        "backgroundColor": "#222222",
+        "colors": [
+          "#5d9cd3",
+          "#eb7b3a",
+          "#a5a5a5",
+          "#febf29",
+          "#4673c2",
+          "#72ad4c"
+        ],
+        "showLegend": true,
+        "legendTextColor": "#ffffff",
+        "showHorizontalAxis": true,
+        "horizontalAxisTextColor": "#ffffff",
+        "showVerticalAxis": true,
+        "verticalAxisTextColor": "#ffffff"
+      }
+    },
+    {
+      "id": "06460437102270156-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "(CATEGORIZED BY REGION, CURRENT EXTENT)"
+      }
+    }
+  ],
+  "wid": "06460437102270156",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Missing Migrants - Incident Reports",
+    "layerId": "Missing Migrants - Incident Reports_880",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

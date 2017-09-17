@@ -1,0 +1,36 @@
+{"k":"0000000096","o":"0000000350","v":"001"}
+{"_id":"HTML_basic_viewer","_uid":1,"_dt":1505604705794,"_s":"aa68790e5632f87743ddc7691be907d5"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_basic_viewer","id":"HTML_basic_viewer","predefinedId":"basic_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000091","o":"0000000336","v":"001"}
+{"_id":"HTML_default","_uid":1,"_dt":1505604705794,"_s":"139667f4c2d929163e8cebe8eb57a25d"}
+{"createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML","_id":"HTML_default","id":"HTML_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000090","o":"0000000332","v":"001"}
+{"_id":"HTML_editor","_uid":1,"_dt":1505604705815,"_s":"58e1da9c30178fd0753212efa2e2eac8"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_editor","id":"HTML_editor","predefinedId":"editor","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000105","o":"0000000377","v":"001"}
+{"_id":"HTML_infographic_dashboard","_uid":1,"_dt":1505604705833,"_s":"4fdf4bad163a6f43e2a02d4323ba90f1"}
+{"createdTime":1499299200000,"lastUpdated":1499299200000,"creator":"Esri","appType":"HTML","_id":"HTML_infographic_dashboard","id":"HTML_infographic_dashboard","predefinedId":"infographic_dashboard","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000101","o":"0000000365","v":"001"}
+{"_id":"HTML_simple_map_viewer","_uid":1,"_dt":1505604705837,"_s":"3ae4f0c0b7fe49ebe330eddb4b5ea0a7"}
+{"createdTime":1439251200000,"lastUpdated":1439251200000,"creator":"Esri","appType":"HTML","_id":"HTML_simple_map_viewer","id":"HTML_simple_map_viewer","predefinedId":"simple_map_viewer","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","isTemplate":true,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000093","o":"0000000388","v":"001"}
+{"_id":"HTML3D_default","_uid":1,"_dt":1505604705838,"_s":"c7fcc05d146e639ad1c4f509ba4833da"}
+{"name":"Default","description":"_Default","createdTime":1439337600000,"lastUpdated":1439337600000,"creator":"Esri","appType":"HTML3D","_id":"HTML3D_default","id":"HTML3D_default","predefinedId":"default","thumbnail":"images/thumbnail.jpg","stemappPath":"client/stemapp3d/","stemappUrl":"/webappbuilder/stemapp3d/","isTemplate":false,"isPredefined":true,"portalUrl":"*","modified":"Esri"}
+{"k":"0000000078","o":"0000000359","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505605632956,"_s":"d39d7713efe0755870c1d4ae8dd2e915"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505605632950,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false}
+{"k":"0000000078","o":"0000000410","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505605635394,"_s":"f3187111e6fea29a4430491678418fe1"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505605635358,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#586679","themeName":"FoldableTheme"}
+{"k":"0000000078","o":"0000000405","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505606403752,"_s":"d00bcb1de1c14c23cb2bd3cd11b0d367"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505606403746,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#292929","themeName":"TabTheme"}
+{"k":"0000000078","o":"0000000405","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505607804068,"_s":"dd5a03bdac77665cd962a78b7a7fc986"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505607804062,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#292929","themeName":"TabTheme"}
+{"k":"0000000078","o":"0000000405","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505609644385,"_s":"26a0cc1b0d18443dd25fcf1e7a281f72"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505609644369,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#292929","themeName":"TabTheme"}
+{"k":"0000000078","o":"0000000405","v":"001"}
+{"_id":2,"_uid":1,"_dt":1505609964261,"_s":"d78823d20c329c8b64a49c5b83f7c53c"}
+{"_id":2,"id":2,"name":"Rescuer Map","description":"","lastUpdated":1505609964260,"createdTime":1505605632955,"appType":"HTML","stemappPath":"client/stemapp/","stemappUrl":"/webappbuilder/stemapp/","creator":"johnathanchen","modified":"johnathanchen","portalUrl":"//johnathan-chen.maps.arcgis.com","isTemplateApp":true,"isTemplate":false,"isPredefined":false,"styleColor":"#292929","themeName":"TabTheme"}

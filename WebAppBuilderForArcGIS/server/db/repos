@@ -1,0 +1,12 @@
+{"k":"0000000078","o":"0000000271","v":"001"}
+{"_id":2,"_uid":2,"_dt":1505604705136,"_s":"5344f86b8d98de1ca2e3e0190528684e"}
+{"name":"HTML widgets","type":"local_folder","url":"/webappbuilder/builder/plugins/stemapps/web2d/../../../../stemapp//widgets/","location":"/Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/widgets","category":"widget","_id":{"$wrap":"$oid","v":2}}
+{"k":"0000000078","o":"0000000267","v":"001"}
+{"_id":3,"_uid":3,"_dt":1505604705895,"_s":"59fce4c04aa926455e74cb4982c35bd9"}
+{"name":"HTML themes","type":"local_folder","url":"/webappbuilder/builder/plugins/stemapps/web2d/../../../../stemapp//themes/","location":"/Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp/themes","category":"theme","_id":{"$wrap":"$oid","v":3}}
+{"k":"0000000078","o":"0000000277","v":"001"}
+{"_id":4,"_uid":4,"_dt":1505604706152,"_s":"5d44db5b5e093b8cc8cb86dcb1b67936"}
+{"name":"HTML3D widgets","type":"local_folder","url":"/webappbuilder/builder/plugins/stemapps/web3d/../../../../stemapp3d//widgets/","location":"/Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp3d/widgets","category":"widget","_id":{"$wrap":"$oid","v":4}}
+{"k":"0000000078","o":"0000000273","v":"001"}
+{"_id":5,"_uid":5,"_dt":1505604706509,"_s":"390d8dd67e66ceb08698e2fc11ab7c71"}
+{"name":"HTML3D themes","type":"local_folder","url":"/webappbuilder/builder/plugins/stemapps/web3d/../../../../stemapp3d//themes/","location":"/Users/Johnathan/Desktop/jaj-hack/WebAppBuilderForArcGIS/client/stemapp3d/themes","category":"theme","_id":{"$wrap":"$oid","v":5}}

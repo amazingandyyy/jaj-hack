@@ -1,0 +1,24 @@
+html, body, #viewDiv {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+
+.green-btn 
+{
+    background-color: green;
+    color: white;
+}
+
+.red-btn
+{
+    background-color: red;
+    color: white;
+}
+
+.orange-btn
+{
+    background-color: orange;
+    color: white;
+}

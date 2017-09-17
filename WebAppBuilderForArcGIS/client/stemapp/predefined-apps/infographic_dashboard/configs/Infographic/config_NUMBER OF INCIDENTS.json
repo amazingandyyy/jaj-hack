@@ -1,0 +1,216 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 21.673783114322923,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3848202440422601-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3848202440422601-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 59.77769213789064,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3848202440422601-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3848202440422601-3"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 18.548524747786445,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "3848202440422601-4"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "3848202440422601-4"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "3848202440422601-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "NUMBER OF INCIDENTS"
+      }
+    },
+    {
+      "id": "3848202440422601-2",
+      "type": "image",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        }
+      }
+    },
+    {
+      "id": "3848202440422601-3",
+      "type": "number",
+      "visible": true,
+      "config": {
+        "indicators": [
+          {
+            "value": [
+              150
+            ],
+            "operator": "greater",
+            "valueColor": "#ff0000",
+            "iconInfo": {
+              "color": "#ff0000",
+              "icon": "icon-danger",
+              "placement": "left"
+            }
+          },
+          {
+            "value": [
+              50
+            ],
+            "operator": "smaller",
+            "valueColor": "#7fff00",
+            "iconInfo": {
+              "color": "#7fff00",
+              "icon": "icon-like",
+              "placement": "left"
+            }
+          }
+        ],
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": "60",
+          "textColor": "#59bad8"
+        },
+        "dataFormat": {
+          "unit": "none",
+          "decimalPlaces": 0,
+          "prefix": "",
+          "suffix": ""
+        },
+        "statistic": {
+          "type": "Features",
+          "fieldName": "X",
+          "statisticsType": "sum"
+        }
+      }
+    },
+    {
+      "id": "3848202440422601-4",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 14,
+          "textColor": "#fff"
+        },
+        "text": "Incident reports from the International Organization for Migration (IOM)"
+      }
+    }
+  ],
+  "wid": "3848202440422601",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Missing Migrants - Incident Reports",
+    "layerId": "Missing Migrants - Incident Reports_880",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

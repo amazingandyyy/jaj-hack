@@ -1,0 +1,15 @@
+{
+  "analysisTools": [
+    {
+      "name": "FindNearest",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false,
+      "showOutputType": false,
+      "toolLabel": "Find Nearest"
+    }
+  ]
+}

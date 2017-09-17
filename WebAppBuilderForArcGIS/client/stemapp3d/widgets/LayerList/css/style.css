@@ -1,0 +1,123 @@
+.jimu-widget-layerlist .dijit-container{
+  width: 100%;
+}
+
+.jimu-widget-layerlist .hidden{
+  display: none !important;
+}
+
+.jimu-widget-layerlist .esri-layer-list{
+  background: inherit;
+  max-height: 100%;
+  overflow: visible;
+  padding: 0;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item:before{
+  display: none;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item:after{
+  display: none;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item-container .esri-icon-zoom-out-fixed{
+  display: none;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item-container:hover .esri-icon-zoom-out-fixed{
+  display: block;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item-container{
+  padding: 9px 0;
+  border-bottom: none;
+}
+
+.jimu-widget-layerlist .dijit-container > ul.esri-layer-list__list--root > .esri-layer-list__item:first-child{
+  display: none;
+}
+
+.jimu-widget-layerlist .esri-layer-list__item-toggle{
+  width: 16px;
+  height: 16px;
+}
+
+.jimu-widget-layerlist .esri-icon-visible{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../../jimu.js/css/images/checked_default.png) no-repeat center center;
+}
+
+.jimu-widget-layerlist .esri-icon-visible:before{
+  content: "";
+}
+
+.jimu-widget-layerlist .esri-icon-non-visible{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../../../jimu.js/css/images/checkbox_default.png) no-repeat center center;
+}
+
+.jimu-widget-layerlist .esri-icon-non-visible:before{
+  content: "";
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem{
+  cursor: pointer;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem.not-loaded{
+  display: none;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem .layeritem-table{
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem .esri-icon-zoom-out-fixed{
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem:hover .esri-icon-zoom-out-fixed{
+  display: block;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem .layeritem-table td{
+  padding: 5px 0;
+}
+
+.jimu-widget-layerlist .jimu-widget-layeritem .jimu-checkbox .label{
+  cursor: pointer;
+}
+
+.jimu-widget-layerlist .ground-tip{
+  position: relative;
+  height: 24px;
+  margin-top: 5px;
+}
+
+.jimu-widget-layerlist .ground-tip > *{
+  position: absolute;
+  width: 100%;
+}
+
+.jimu-widget-layerlist .ground-tip > div{
+  text-align: center;
+}
+
+.jimu-widget-layerlist .ground-tip span{
+  display: inline-block;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: white;
+  padding: 0 4px;
+}

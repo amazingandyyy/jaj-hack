@@ -1,0 +1,15 @@
+.jimu-widget-bookmark .jimu-img-node:hover{
+  color: #fff;
+}
+
+.jimu-widget-bookmark .btn-add {
+  background-color: #666;
+}
+
+.jimu-widget-bookmark .jimu-img-node {
+  color: #999;
+}
+
+.jimu-widget-bookmark .jimu-img-node .node-label {
+  margin: 5px auto 0 auto;
+}

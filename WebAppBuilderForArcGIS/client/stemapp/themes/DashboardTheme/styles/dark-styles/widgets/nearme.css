@@ -1,0 +1,9 @@
+.jimu-widget-nearme .esriCTSearchHeader,
+.jimu-widget-nearme .esriCTSliderText,
+.jimu-widget-nearme .esriCTPanelHeader .esriCTItemName{
+  color: white;
+}
+
+.jimu-widget-nearme  .swiper-slide{
+  background-color: #222;
+}

@@ -1,0 +1,196 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 16.724032499803975,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "010974520438876034-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "010974520438876034-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 71.02950169134368,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "010974520438876034-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "010974520438876034-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "height": 12.246465808852362,
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "010974520438876034-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "010974520438876034-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "010974520438876034-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "MAXIMUM OF DEATH"
+      }
+    },
+    {
+      "id": "010974520438876034-2",
+      "type": "gauge",
+      "visible": true,
+      "config": {
+        "shape": "curved",
+        "min": 0,
+        "max": 300,
+        "indicators": [
+          {
+            "value": [
+              50
+            ],
+            "operator": "greater",
+            "isRatio": true,
+            "valueColor": "#ff0000",
+            "gaugeColor": "#ff0000"
+          }
+        ],
+        "display": {
+          "bgColor": "#1E5F6F",
+          "backgroundColor": "#222222",
+          "gaugeColor": "#12ddf9",
+          "dataLabels": {
+            "state": true,
+            "textColor": "#ffffff",
+            "dataRange": true,
+            "targetValue": true
+          },
+          "currentValue": {
+            "state": true,
+            "isRatio": false,
+            "font": {
+              "font": {
+                "fontFamily": "Arial",
+                "bold": false,
+                "italic": false,
+                "underline": false
+              },
+              "fontSize": "46",
+              "textColor": "#59bad8"
+            },
+            "dataFormat": {
+              "unit": "none",
+              "decimalPlaces": 0,
+              "prefix": "",
+              "suffix": ""
+            }
+          }
+        },
+        "statistic": {
+          "type": "FeatureStatistics",
+          "fieldName": "DEAD",
+          "statisticsType": "max"
+        }
+      }
+    },
+    {
+      "id": "010974520438876034-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 14,
+          "textColor": "#fff"
+        },
+        "text": "The maximum death counts for a single incident"
+      }
+    }
+  ],
+  "wid": "010974520438876034",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Missing Migrants - Incident Reports",
+    "layerId": "Missing Migrants - Incident Reports_880",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

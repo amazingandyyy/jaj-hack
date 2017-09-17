@@ -1,0 +1,162 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "column",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "width": 100,
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 15.034420289855072,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "20177187819613773-1"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "20177187819613773-1"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 74.82565455955151,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "20177187819613773-2"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "20177187819613773-2"
+              }
+            ]
+          },
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "height": 10.13992515059343,
+            "width": 59.15915915915916,
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "componentName": "jimu grid",
+                "componentState": {
+                  "id": "20177187819613773-3"
+                },
+                "reorderEnabled": true,
+                "title": "jimu grid",
+                "id": "20177187819613773-3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "20177187819613773-1",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "INCIDENT COUNT "
+      }
+    },
+    {
+      "id": "20177187819613773-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "bar",
+        "categoryField": "INFORELIABILITY",
+        "sortOrder": "asc",
+        "backgroundColor": "#222222",
+        "colors": [
+          "#5d9cd3"
+        ],
+        "showLegend": false,
+        "legendTextColor": "#ffffff",
+        "showHorizontalAxis": true,
+        "horizontalAxisTextColor": "#ffffff",
+        "showVerticalAxis": true,
+        "verticalAxisTextColor": "#ffffff"
+      }
+    },
+    {
+      "id": "20177187819613773-3",
+      "type": "text",
+      "visible": true,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "( CATEGORIZED BY RELIABILITY, CURRENT EXTENT)"
+      }
+    }
+  ],
+  "wid": "20177187819613773",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Missing Migrants - Incident Reports",
+    "layerId": "Missing Migrants - Incident Reports_880",
+    "useSelection": true,
+    "filterByExtent": true
+  }
+}

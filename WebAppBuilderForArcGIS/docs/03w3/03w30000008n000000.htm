@@ -1,0 +1,54 @@
+<html lang="en" xml:lang="en"><head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><META name="description" content="The Search widget enables you to find locations on the scene."><meta name="content-language" content="en"><link href="rsrc/htmlhelp.css" rel="stylesheet" type="text/css"><title>Web AppBuilder for ArcGIS | Help - 
+Search widget</title>
+                <script type="text/javascript" language="JavaScript">
+                    var pathL  = self.location.pathname.split ("/");
+                    var fname = pathL[pathL.length-1];
+                    var i = fname.lastIndexOf (".htm");
+                    if (i>=0) {
+                    fname = fname.substring (0, i)
+                    } else {
+                    //??
+                    }
+                    if (self.location.hash) {
+				    		      fname = fname + self.location.hash;
+						        }
+                    self.location.replace ("../index.html#//" + fname);
+                </script>
+                </head><!--Publication GUID: [GUID-E7D1C130-8F87-4109-8D61-E73A46083F52]--><!--Topic GUID: [GUID-FD01AB87-3069-4959-BD17-97EBCD84255F]--><body><div id="content"><div class="header"><h1>
+Search widget</h1><div id="breadcrumb"></div></div>
+<p id="GUID-39FC992C-5DE5-4867-87EC-A41EB8996FB1">The Search widget enables you to find locations on the scene.
+Unlike the Search widget in a 2D app, it does not support feature search. By default,  the widget uses  the geocoding service from your organization or portal. You can also add more geocoding services.</p><div class="section1" id="GUID-C88275B6-E366-45E3-B505-B7FAE535F71D" purpose="section1"><h2>
+Configuring the Search widget</h2><p id="GUID-55D9919F-592D-41E7-9BAC-AA13906A3DA3">The widget configuration window allows you to specify the geocoding services you want the widget to work with.</p></div>
+    <div class="wfsteps" purpose="wfsteps"><h4></h4><div class="steps" id="GUID-F0ABBE7C-BEAE-4491-B34F-219F714676EA"><div class="step_title">Steps:</div><ol>
+        <li purpose="step" id="GUID-B25C843B-7E76-4463-9C82-DA485CED02CC">
+          <span purpose="cmd" id="GUID-7BD1896E-5199-46A6-BEAA-667D9937AF37">
+Hover over the Search widget and click the small eye icon <img purpose="img" placement="inline" alt="Show or hide" title="Show or hide" src="03w3/GUID-19F26705-0506-4405-801F-B7897D824705-web.png"> to show or hide this widget in your app.
+</span>
+        </li>
+        <li purpose="step" id="ESRI_STEP_C9FDF8DE21F9440E961F666F611DE34C">
+          <span purpose="cmd" id="GUID-182EC26A-8B50-4AB5-993A-2454FD8EF6A4">Hover over the  widget and click the small edit icon <img purpose="img" placement="inline" alt="Edit" title="Edit" src="03w3/GUID-31D329BD-BC73-4BBE-AE1D-3A1261BF912A-web.png">.  </span>
+        <div class="stepresult" purpose="stepresult"><p id="GUID-5F949EC5-3C18-4CEF-A89A-835421C76B23">The configuration window for the widget appears.</p></div></li>
+        <li purpose="step" id="ESRI_STEP_17225FE0374B47CDA4CAB8280AF88074">
+          <span purpose="cmd" id="GUID-3BA5A5F5-42F3-4CCC-B942-EE410FCB126E">By default, the widget uses  the geocoding service from your organization or portal. If you want to add more geocoding services, click <span class="uicontrol">Add Search Source</span> and choose <span class="uicontrol">Geocoder</span>.</span>
+        </li><li purpose="step" id="ESRI_STEP_6157741666994253A22B17EB65135810"><span purpose="cmd" id="GUID-7CB52368-9DF2-482E-AF50-ED3FCA95AD12">Click the <span class="uicontrol">Set</span> button to open the <span class="uicontrol">Set Geocoder URL</span> window.</span></li><li purpose="step" id="ESRI_STEP_B075ACC1C02D49939B179D96CED20DA1"><span purpose="cmd" id="GUID-FFE68873-3ADB-406D-9D78-1FFC28C704F9">Provide a valid URL for the geocoding service you want to use, click <span class="uicontrol">Validate</span> to load the service, choose the service, and click <span class="uicontrol">OK</span>.</span><div class="stepresult" purpose="stepresult"><p id="GUID-28D08E31-2BD7-4D8C-B8C3-13AE98FDB621">The geocoder URL is  automatically added to the <span class="uicontrol">Geocoder URL</span> text box.   You can change the geocoder name in the <span class="uicontrol">Geocode Name</span> text box.</p></div></li><li purpose="step" id="ESRI_STEP_2347E2920E4E4C39B1838962C4B57EB3"><span purpose="cmd" id="GUID-D7298C2A-ACB5-4092-AB0C-6044C528AB01">Optionally type text in the <span class="uicontrol">Placeholder Text</span> text box.</span></li><li purpose="step" id="ESRI_STEP_EC7645EE756C4C7B9D7D0469A40C7517"><span purpose="cmd" id="GUID-6547E487-9D55-4BC1-9AF7-A01D62B79E7B">Optionally type the country code to limit the search area if available. See <a target="_blank" class="xref" href="https://developers.arcgis.com/rest/geocode/api-reference/geocode-coverage.htm" rel="https://developers.arcgis.com/rest/geocode/api-reference/geocode-coverage.htm">Geocode coverage</a> for a country code list.</span></li><li purpose="step" id="ESRI_STEP_2933B253A02942D8A12666D2A45EB625"><span purpose="cmd" id="GUID-4C027027-7EFE-4B8A-B461-09905C700291">By default, 6 is the maximum suggestions returned.  Change it if necessary.</span></li><li purpose="step" id="ESRI_STEP_136A7E06AE91457C9D9A20111C883828"><span purpose="cmd" id="GUID-BAEFF988-547E-4C13-8C99-59DD7DE3C4A9">By default, 6 is the maximum results  returned.  Change it if necessary.</span></li><li purpose="step" id="ESRI_STEP_56DFD2E34DA2419F8402022CB383E6C6"><span purpose="cmd" id="GUID-E0DFB836-13EC-4C95-A548-71D522F68B49">Change the zoom scale if necessary.</span></li><li purpose="step" id="ESRI_STEP_B652FEC8AE4A404F88C1E7CCECF2FB23"><span purpose="cmd" id="GUID-C4BB6236-87CA-4F5C-A0E9-6EA5BEE9E787">Optionally check the <span class="uicontrol">Only search in current map extent</span>.</span></li>
+        
+        
+        <li purpose="step" id="ESRI_STEP_3B18EC3A9AB54FF99A4E0880208F86BA"><span purpose="cmd" id="GUID-B767F460-996D-40DA-9CEC-046407B65ACD">Under <span class="uicontrol">General Settings</span>, set the placeholder text for geocoders.</span></li><li purpose="step" id="ESRI_STEP_9F3DC6F137894289AB800A5598611BB2"><span purpose="cmd" id="GUID-510EC279-221A-4B08-842C-B9DF5B92A4F0">By default, the pop-up displays when    the location  is found on the scene. Uncheck the box  to disable the pop-up.</span></li>
+        <li purpose="step" id="ESRI_STEP_D282ADEBF9964234867D51EF4C6D788E">
+          <span purpose="cmd" id="GUID-D0370B9A-149B-46CF-968C-2F07FD5272DF">Click <span class="uicontrol">OK</span> to close the configuration window.</span>
+        </li>
+      </ol></div></div><div class="section1" id="GUID-DA50F1FF-B1FE-402E-8F04-68CCC5799625" purpose="section1"><h2>
+Using the Search widget
+</h2></div>
+<div class="wfsteps" purpose="wfsteps"><h4></h4><div class="steps" id="GUID-8F0544FD-8DFD-4D98-B213-9E5DF6152708"><div class="step_title">Steps:</div><ol><li purpose="step" id="ESRI_STEP_650165B942EB49D2AEE57C317218FE40">
+          <span purpose="cmd" id="GUID-2BE892F0-0154-4EF0-A751-39EEE8F22AE9"> When you enter  a place-name in the search box, suggestions appear as you type. If you see an arrow in the search box, you can search on all sources, or click the arrow and choose a locator from the drop-down list.</span>
+        </li>
+        <li purpose="step" id="ESRI_STEP_0171AB97674A48DBAFB9C33D515B0F44">
+          <span purpose="cmd" id="GUID-4187C913-5AC3-4949-9775-EFA490CE6F44">A pop-up appears at the location  of the place-name and displays any available attribute information.</span>
+        </li>
+
+</ol></div></div>
+
+<div class="footer"> Copyright © 1995-2017 Esri. All rights reserved. </div></div></body></html>

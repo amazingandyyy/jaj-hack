@@ -1,0 +1,30 @@
+<html lang="en" xml:lang="en"><head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><META name="description" content="There are two ways to generate data source: configure in extra data source and generate from widget."><meta name="content-language" content="en"><link href="rsrc/htmlhelp.css" rel="stylesheet" type="text/css"><title>Web AppBuilder for ArcGIS | Help - 
+Provide and consume data source in widget
+</title>
+                <script type="text/javascript" language="JavaScript">
+                    var pathL  = self.location.pathname.split ("/");
+                    var fname = pathL[pathL.length-1];
+                    var i = fname.lastIndexOf (".htm");
+                    if (i>=0) {
+                    fname = fname.substring (0, i)
+                    } else {
+                    //??
+                    }
+                    if (self.location.hash) {
+				    		      fname = fname + self.location.hash;
+						        }
+                    self.location.replace ("../index.html#//" + fname);
+                </script>
+                </head><!--Publication GUID: [GUID-E7D1C130-8F87-4109-8D61-E73A46083F52]--><!--Topic GUID: [GUID-4A8D25FC-7853-43DB-8363-7C7A62021DE2]--><body><div id="content"><div class="header"><h1>
+Provide and consume data source in widget
+</h1><div id="breadcrumb"></div></div>
+<p id="GUID-FA5FB058-9CF4-4E5E-B8D2-8D538504DD76">Apps created by <span purpose="ph" varid="wabshort">Web AppBuilder</span> is a map centric app, all widgets have a map reference and can read data from map. From version 2.5, we introduce a new concept: data source, which is a new kind of data that widget can use. There are two ways to generate data source: configure in extra data source and generate from widget. The generated data sources are stored in app config and all of the widget can use them. To find how to config extra data source, you can read the <a class="xref" rel="03w3/03w300000044000000.htm#ESRI_SECTION1_90B658C55CAE428FA43A110272096C81" href="03w3/03w300000044000000.htm#ESRI_SECTION1_90B658C55CAE428FA43A110272096C81">Attribute topic</a> in our help pages. </p><p id="GUID-36C63F10-9D95-49BE-AAA0-5ADF22979361">In this section, we’ll focus on how to provide/consume data source in widget. Data source is a new communication way between widgets. There are two sample widgets to demonstrate how to do this in widget: samplewidgets/DataSourceProvider and samplewidgets/DataSourceConsumer</p><p id="GUID-F81E68BF-A76C-4EE0-876D-57599C61DE0D">To provide data source in a widget, you should override <span class="usertext">getDataSources()</span> function in your widget <span class="usertext">Setting.js</span>. The function should return the data sources that your widget will provide, but you can return a promise that resolves the data sources as well. The data source is an object that has the follow properties:</p>
+
+<div class="block_table" id="TABLE_FB86452235954A0E856FFE1DABC213B7" purpose="block_table"><span class="table_title"></span><table class="table"><colgroup width="*"></colgroup><colgroup width="*"></colgroup><tr purpose="thead"><th class="th" purpose="th" rowspan="1" colspan="1"><p id="GUID-6421508B-7BE6-4E95-AA51-967DCC4A224D">Property</p></th><th class="th" purpose="th" rowspan="1" colspan="1"><p id="GUID-CE31170B-129B-4C9E-A012-DC92C9FD546A">Description</p></th></tr><tbody><tr><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-5109B9EF-E178-41BB-90C6-72692B372696">id</p></td><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-985ED1E5-3D80-48C8-A3F5-166A32585A95">The data source id. This id does not contain “widgets~&lt;widget id&gt;~”</p></td></tr><tr><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-25E5E023-C846-437A-A96B-3C954D5C4D3B">type</p></td><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-863756B5-274D-4E47-9BB7-A04FCE451F91">Features/FeatureStatistics</p></td></tr><tr><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-6C9BD491-5C53-4C50-98B5-76DCF2DDAB5B">label</p></td><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-04A46D3F-DEDC-4765-B066-231D53E3ABAC">The label of data source</p></td></tr><tr><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-A6067535-00DC-4BFD-8E1F-16EB21BE14C4">dataSchema</p></td><td purpose="entry" rowspan="1" colspan="1"><p id="GUID-2730337F-5B9E-4099-9341-0B089638842A">The dataSchema of data source, see <a class="xref" rel="03w3/03w3000000mr000000.htm" href="03w3/03w3000000mr000000.htm">Datasource configuration</a>.</p></td></tr></tbody></table><span class="table_desc"></span></div><p id="GUID-ADEED364-EFA1-479F-9CE0-F65C254E8BB4">When a user adds a widget that can provide data source, the other widget that can consume data source can use the data source provided by the widget. Please note that this is just a data source definition, there is no actual data. To provide the actual data, the data provider widget needs to call <span class="usertext">this.updateDataSourceData()</span> to update data in widget runtime. Function <span class="usertext">updateDataSourceData</span> has 2 parameters: the data source id and the data, the data is an object that has features property.</p><p id="GUID-59CA70B5-A7E5-46FE-81AC-25EA23192C6A">To consume the data, the widget needs to config how to consume the data in widget setting page and then overrides the <span class="usertext">onDataSourceDataUpdate</span> function to listen to the data source change. To read the data that updated before the widget loaded, you can use <span class="usertext">DataSourceManager.getInstance().getData(dataSourceId)</span> to get the data. There a data source selection dijit can help you to config data source in widget setting page: <span class="usertext">jimu.js/dijit/DataSource</span>.</p><div class="wfsummary" id="GUID-DF30EBEB-0CCB-4CDC-9943-D2A3883552AE" purpose="wfsummary">
+<p id="GUID-2BBAA8C9-D437-44E8-A93B-CAFF7DAA4C12">
+
+</p>
+</div>
+<div class="footer"> Copyright © 1995-2017 Esri. All rights reserved. </div></div></body></html>

@@ -1,0 +1,5 @@
+/**
+ * Copyright @ 2017 Esri.
+ * All rights reserved under the copyright laws of the United States and applicable international laws, treaties, and conventions.
+ */
+define(["dojo/_base/lang","esri/geometry/support/units","esri/core/lang","esri/geometry/support/webMercatorUtils","esri/geometry/support/WKIDUnitConversion"],function(e,r,i,s,n){var t={esriCentimeters:.01,esriDecimeters:.1,esriFeet:.3048,esriInches:.0254,esriKilometers:1e3,esriMeters:1,esriPixels:1,esriMiles:1609.34,esriMillimeters:.001,esriNauticalMiles:1852,esriYards:.9144,esriDecimalDegrees:111320},l={SECOND:"esriSecond",MILLISECOND:"esriMillisecond",PERCENTAGE:"esriPercentage"};l.label=function(e){switch(e){case l.SECOND:return"s";case l.MILLISECOND:return"ms";case l.METERS:return"m";case l.PERCENTAGE:return"%";default:return"unknown"}};var a="102100";return l.toMeters=function(e,r,s){if(null==e)return r;if(!r||isNaN(r))return console.warn("Unit or value is invalid."),null;var l=r*t[e];if("global"==s)return l;if("local"==s&&i.isDefined(n[a])){var o=n.values[n[a]];return l/(1*o)}return l},e.mixin(l,r)});

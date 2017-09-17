@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="34px" viewBox="0 0 20 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>leftArrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="94.3492424 730.349242 115.349242 730.349242 94.3492424 751.349242"></polygon>
+        <filter x="-28.6%" y="-28.6%" width="138.1%" height="138.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-2" dy="-2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.604884141   0 0 0 0 0.604884141   0 0 0 0 0.604884141  0 0 0 0.3 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="attribute" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="add-logo" transform="translate(-85.000000, -724.000000)">
+            <g id="leftArrow" transform="translate(104.849242, 740.849242) rotate(-45.000000) translate(-104.849242, -740.849242) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

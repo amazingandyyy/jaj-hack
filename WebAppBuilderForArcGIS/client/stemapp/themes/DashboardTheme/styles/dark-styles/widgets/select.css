@@ -1,0 +1,37 @@
+.jimu-widget-select .selectable-layer-item:hover {
+  background-color: #666;
+}
+
+.jimu-widget-select .selectable-layer-item.no-action:hover {
+  background-color: #222;
+}
+
+.jimu-widget-select .selectable-layer-item .layer-row .layer-name,
+.jimu-widget-select .selectable-layer-item .layer-row .selected-num,
+.jimu-widget-select .jimu-multiple-layers-featureset-chooser .btn-clear,
+.jimu-widget-select .details-node .feature-action,
+.jimu-widget-select .details-node .header .layer-name,
+.jimu-widget-select .normal-label,
+.jimu-widget-select .light-label,
+.jimu-widget-select .medium-label {
+  color: #FFF;
+}
+
+.jimu-widget-select .popup-menu-button,
+.jimu-widget-select .selectable-layer-item.no-action .popup-menu-button {
+  background: url(../images/more-horiz.svg) no-repeat center;
+  background-color: #222;
+}
+
+.jimu-widget-select .selectable-layer-item:hover .popup-menu-button,
+.jimu-widget-select .feature-item-row:hover .popup-menu-button{
+  background-color: #666;
+}
+
+.jimu-widget-select .selectable-layer-item.no-action:hover .popup-menu-button {
+  background-color: #222;
+}
+
+.jimu-widget-select .details-node .content .graphic-item:hover {
+  background-color: #666;
+}

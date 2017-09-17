@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="19.7265625%" x2="100%" y2="78.3203125%" id="linearGradient-1">
+            <stop stop-color="#4CF2FF" offset="0%"></stop>
+            <stop stop-color="#00BFEF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="52.3631215%" x2="100%" y2="52.3631215%" id="linearGradient-2">
+            <stop stop-color="#000000" stop-opacity="0.0907212409" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="50%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="50.4982462%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="5.24154974%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#000000" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="MainTab" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loading" transform="translate(-660.000000, -311.000000)">
+            <g id="logo" transform="translate(667.000000, 311.000000)">
+                <g id="Group-2">
+                    <g id="logo">
+                        <g id="bg">
+                            <polygon id="Bg_B" fill="url(#linearGradient-1)" points="105.945341 15 105.945341 96.4960636 52.9925212 120 0 105 0 23.5039364 52.9925212 0"></polygon>
+                            <polygon id="Bg_1" fill="url(#linearGradient-2)" points="105.945341 15 105.945341 96.4960636 52.9925212 120 0 105 0 23.5039364 52.9925212 0"></polygon>
+                            <polygon id="Bg_2" fill="url(#linearGradient-3)" opacity="0.2" points="85.2685079 9.15389151 85.2685083 77.5204457 52.9535506 119.988945 20.6143646 82.7100531 20.6143643 14.3434989 52.9535502 1.30104261e-17"></polygon>
+                        </g>
+                    </g>
+                    <g id="shape" transform="translate(15.008850, 16.875000)" fill="#FFFFFF">
+                        <polygon id="Path-5-Copy-3" points="37.9491713 0 75.8983425 10.78125 75.8983425 69.71875 37.9491713 86.25 3.59518411e-15 75.46875 0 16.53125 14.0552486 10.4085648 14.0552486 34.7421875 14.0552486 63.515625 37.9491713 70.3125 61.8430939 59.890625 61.8430939 22.734375 37.9491713 15.9375 28.1104972 20.2288603 28.1104972 4.28587963"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
