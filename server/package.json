@@ -17,6 +17,7 @@
     "fast-csv": "^2.4.0",
     "jsonfile": "^4.0.0",
     "mongoose": "^4.11.11",
+    "nexmo": "^2.0.2",
     "nodemon": "^1.12.0",
     "request": "^2.81.0"
   }

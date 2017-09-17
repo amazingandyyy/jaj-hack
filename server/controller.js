@@ -1,4 +1,9 @@
 var Victim = require('./model');
+var Nexmo = require('nexmo');
+var nexmo = new Nexmo({
+    apiKey: process.env.API_KEY,
+    apiSecret: process.env.API_SECRET
+});
 
 module.exports = function(p){
     console.log(p.msisdn)
@@ -13,12 +18,29 @@ module.exports = function(p){
                     Victim.findOne({
                         msisdn: newPerson.msisdn
                     }).then(data=>{
+                        nexmo.message.sendSms(process.env.NUMBER, p.msisdn, 'hello: where are you: https://www.amazingandyyy.com/jaj-hack/');
                         return console.log('data', data)
                     })
                 })
             })
         }else{
-            dbPerson.messages.push(p.text);
+            var text = p.text;
+            if(text.match('#Location = ')){
+                var long = text.split('#Location = ')[1].split(', ')[0];
+                var lat = text.split('#Location = ')[1].split(', ')[1];
+                dbPerson.coordinates.push(
+                    {
+                        LON: long,
+                        LAT: lat,
+                        timestamp: p['message-timestamp']
+                    }
+                )
+            }
+            dbPerson.messages.push({
+                content: p.text,
+                timestamp: p['message-timestamp']
+            });
+            nexmo.message.sendSms(process.env.NUMBER, p.msisdn, 'Update you location here: https://www.amazingandyyy.com/jaj-hack/');
             dbPerson.save().then(()=>{
                 Victim.findOne({
                     msisdn: dbPerson.msisdn
