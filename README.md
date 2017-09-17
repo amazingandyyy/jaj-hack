@@ -8,6 +8,7 @@
 
 ### Solution
 - build a communication interfase with low-internet requirement
+![image](https://github.com/amazingandyyy/jaj-hack/blob/master/TC_Disrupt_201709/TC_Disrupt_201709.005.png?raw=true)
 
 ### What we achieve (the workflow)
 - build a simple SMS server to resieve user's(victims's) message, then peompt user to go to [this](http://www.amazingandyyy.com/jaj-hack/) minimunal site to fetch the victim's current geolocation and then send the coordination back to our server via SMS message.
