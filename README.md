@@ -1,6 +1,6 @@
 # jaj-hack
-jaj stands for Janothon-Andy-Jimmy's 
-hack stands for our hack in [Techcrunch Disrupt Hackathon](https://techcrunch.com/event-info/disrupt-sf-2017/disrupt-sf-20thon/) on 9/16~9/17/2017 @pier 48, SF
+- jaj stands for Janothon-Andy-Jimmy's 
+- hack stands for our hack in [Techcrunch Disrupt Hackathon](https://techcrunch.com/event-info/disrupt-sf-2017/disrupt-sf-20thon/) on 9/16~9/17/2017 @pier 48, SF
 
 ### The problem
 - victims in a disaster/misfortunate event/lost/... needs immedaite help and rescue
