@@ -18,7 +18,7 @@
     };
     document.addEventListener("DOMContentLoaded", function() {
         navigator.geolocation.getCurrentPosition(function(position) {
-            console.log('dddddd')
+            console.log('Fetching location')
           document.getElementById('latitude').innerHTML = position.coords.latitude;
           document.getElementById('longitude').innerHTML = position.coords.longitude;
           document.getElementById('sms').href = 'sms:1-888-597-5960&body='+ '#Location = ' + position.coords.latitude + ", " + position.coords.longitude;
