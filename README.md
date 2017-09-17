@@ -11,6 +11,7 @@
 ![image](https://github.com/amazingandyyy/jaj-hack/blob/master/TC_Disrupt_201709/TC_Disrupt_201709.005.png?raw=true)
 
 ### What we achieve (the workflow)
+![image2](https://github.com/amazingandyyy/jaj-hack/blob/master/TC_Disrupt_201709/TC_Disrupt_201709.006.png?raw=true)
 - build a simple SMS server to resieve user's(victims's) message, then peompt user to go to [this](http://www.amazingandyyy.com/jaj-hack/) minimunal site to fetch the victim's current geolocation and then send the coordination back to our server via SMS message.
 - The backend doing folloing tasks
   - create a victim in db 
@@ -35,5 +36,6 @@
 ### License
 [MIT](https://github.com/amazingandyyy/jaj-hack/blob/master/LICENSE)
 
-### To-Do
+### Resourse
+- check full presentation in [pdf](https://github.com/amazingandyyy/jaj-hack/blob/master/TC_Disrupt_201709.pdf) or [png](https://github.com/amazingandyyy/jaj-hack/tree/master/TC_Disrupt_201709)
 
