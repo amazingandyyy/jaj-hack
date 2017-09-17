@@ -1,0 +1,45 @@
+---
+title: "SF Disrupt"
+output: html_notebook
+---
+
+```{r}
+geodata <- data.frame(
+  SenderID = character(),
+  Time = character(),
+  Longitude = character(),
+  Latitude = character()
+)
+
+senders <- paste(
+  "S",
+  formatC(c(1:100), width = 6, format = "d", flag = "0"),
+  sep = "-"
+)
+
+llCenter <- c(29.8159954, -95.9617495)
+llScale <- 1e-5
+
+set.seed(12321)
+
+for (i in 1:1000){
+  tmpll <- round(llCenter + (llScale*llCenter*runif(1)), 7)
+  
+  tmpRow <- data.frame(
+    SenderID = sample(senders, 1),
+    Time = as.character(Sys.time() + runif(1)*1e+3),
+    Longitude = tmpll[1],
+    Latitude = tmpll[2]
+  )
+  geodata <- rbind(geodata, tmpRow)
+}
+
+geodata <- geodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]
+```
+
+## Export
+
+```{r}
+write.csv(geodata, "geodata.csv")
+```
+
