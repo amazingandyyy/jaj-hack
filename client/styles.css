@@ -5,6 +5,17 @@ html, body, #viewDiv {
     width: 100%;
   }
 
+  #titleDiv {
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    line-height: 1;
+    z-index: 1;
+    background: #fff;
+    font-family: "Avenir Next W00";
+    font-size: 20px;
+  }
+
 .green-btn 
 {
     background-color: green;
