@@ -1,0 +1,14 @@
+---
+title: "SF Disrupt"
+output: html_notebook
+---
+
+```{r}
+geodata <- data.frame(
+  SenderID = character(),
+  Time = character(),
+  Longitude = character(),
+  Latitude = character()
+)
+```
+
