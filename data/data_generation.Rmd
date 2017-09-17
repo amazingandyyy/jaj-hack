@@ -26,7 +26,7 @@ llScale <- 1e-4
 set.seed(12321)
 
 for (i in 1:1000){
-  tmpll <- round(llCenter + (llScale*llCenter*runif(1)), 7)
+  tmpll <- round(llCenter + (llScale*runif(2)), 7)
   
   tmpRow <- data.frame(
     SenderID = sample(senders, 1),
