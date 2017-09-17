@@ -20,8 +20,8 @@ senders <- paste(
   sep = "-"
 )
 
-llCenter <- c(29.8159954, -95.9617495) # Houston
-llScale <- 1e-6
+llCenter <- c(29.761772, -95.358001) # Houston
+llScale <- 1e-4
 
 set.seed(12321)
 
@@ -76,10 +76,7 @@ set.seed(12343221)
 for (i in 1:1000){
   tmpll <- round(llCenter + (llScale*llCenter*runif(1)), 7)
   
-  textSel <- sample.int(length(randomText), 1)
-  textSel <- c(textSel, textSel + sample.int(7))
-  textSel[textSel > length(randomText)] <-
-    textSel[textSel > length(randomText)] - length(randomText)
+  textSel <- sample.int(length(randomText), sample.int(10, 1))
 
   tmpRow <- data.frame(
     msisdn = paste("1", sample(areacodes$Area.Code, 1),
@@ -88,7 +85,7 @@ for (i in 1:1000){
     messageId = paste(sample(c(0:9, LETTERS[1:6]), 16, T), collapse = ""),
     text = paste(randomText[textSel], collapse = " "),
     type = "text",
-    keyword = randomText[textSel[1]],
+    keyword = head(randomText[textSel], 1),
     message_timestamp = as.character(Sys.time() + runif(1)*1e+3)
   )
   nexmodata <- rbind(nexmodata, tmpRow)
@@ -102,6 +99,7 @@ nexmodata <- nexmodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]
 ```{r}
 library(jsonlite)
 write(toJSON(nexmodata), "nexmodata.json")
-
 write.csv(nexmodata, "nexmodata.csv")
 ```
+
+
