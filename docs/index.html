@@ -21,7 +21,7 @@
             console.log('dddddd')
           document.getElementById('latitude').innerHTML = position.coords.latitude;
           document.getElementById('longitude').innerHTML = position.coords.longitude;
- 
+          document.getElementById('sms').href = 'sms:1-888-597-5960&body='+position.coords.latitude+"#"+position.coords.longitude;
         });
     });
 
@@ -30,7 +30,7 @@
     <span id="latitude"></span>
     <span id="longitude"></span>
 
-    <a href="sms:1-888-597-5960">fdjkla;f</a>
+    <a id="sms" href="sms:1-888-597-5960">SMS My Location Now</a>
 
 
 
