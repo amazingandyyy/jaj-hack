@@ -172,6 +172,8 @@ $(document).ready(function () {
 
 
 <!-- rnb-text-begin -->
+<div id="location" class="section level1">
+<h1>Location</h1>
 <!-- rnb-text-end -->
 <!-- rnb-chunk-begin -->
 <!-- rnb-source-begin eyJkYXRhIjoiYGBgclxuZ2VvZGF0YSA8LSBkYXRhLmZyYW1lKFxuICBTZW5kZXJJRCA9IGNoYXJhY3RlcigpLFxuICBUaW1lID0gY2hhcmFjdGVyKCksXG4gIExvbmdpdHVkZSA9IGNoYXJhY3RlcigpLFxuICBMYXRpdHVkZSA9IGNoYXJhY3RlcigpXG4pXG5zZW5kZXJzIDwtIHBhc3RlKFxuICBcIlNcIixcbiAgZm9ybWF0QyhjKDE6MTAwKSwgd2lkdGggPSA2LCBmb3JtYXQgPSBcImRcIiwgZmxhZyA9IFwiMFwiKSxcbiAgc2VwID0gXCItXCJcbilcbmxsQ2VudGVyIDwtIGMoMjkuODE1OTk1NCwgLTk1Ljk2MTc0OTUpXG5sbFNjYWxlIDwtIDFlLTVcbnNldC5zZWVkKDEyMzIxKVxuZm9yIChpIGluIDE6MTAwMCl7XG4gIHRtcGxsIDwtIHJvdW5kKGxsQ2VudGVyICsgKGxsU2NhbGUqbGxDZW50ZXIqcnVuaWYoMSkpLCA3KVxuICBcbiAgdG1wUm93IDwtIGRhdGEuZnJhbWUoXG4gICAgU2VuZGVySUQgPSBzYW1wbGUoc2VuZGVycywgMSksXG4gICAgVGltZSA9IGFzLmNoYXJhY3RlcihTeXMudGltZSgpICsgcnVuaWYoMSkqMWUrMyksXG4gICAgTG9uZ2l0dWRlID0gdG1wbGxbMV0sXG4gICAgTGF0aXR1ZGUgPSB0bXBsbFsyXVxuICApXG4gIGdlb2RhdGEgPC0gcmJpbmQoZ2VvZGF0YSwgdG1wUm93KVxufVxuZ2VvZGF0YSA8LSBnZW9kYXRhW29yZGVyKGdlb2RhdGEkU2VuZGVySUQsIGFzLlBPU0lYY3QoZ2VvZGF0YSRUaW1lKSksXVxuYGBgIn0= -->
@@ -213,10 +215,63 @@ geodata &lt;- geodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]</code>
 <!-- rnb-source-end -->
 <!-- rnb-chunk-end -->
 <!-- rnb-text-begin -->
+</div>
+</div>
+<div id="nexmo" class="section level1">
+<h1>Nexmo</h1>
 <!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxubmV4bW9kYXRhIDwtIGRhdGEuZnJhbWUoXG4gIG1zaXNkbiA9IGNoYXJhY3RlcigpLFxuICB0byA9IGNoYXJhY3RlcigpLFxuICBtZXNzYWdlSWQgPSBjaGFyYWN0ZXIoKSxcbiAgdGV4dCA9IGNoYXJhY3RlcigpLFxuICB0eXBlID0gY2hhcmFjdGVyKCksXG4gIGtleXdvcmQgPSBjaGFyYWN0ZXIoKSxcbiAgbWVzc2FnZV90aW1lc3RhbXAgPSBjaGFyYWN0ZXIoKVxuKVxudmlydHVhbE51bSA8LSBcIjE4ODg1OTc1OTYwXCJcbiMgbGxDZW50ZXIgPC0gYygyOS44MTU5OTU0LCAtOTUuOTYxNzQ5NSkgIyBIb3VzdG9uXG4jIGxsU2NhbGUgPC0gMWUtNlxucmFuZG9tVGV4dCA8LSByZWFkTGluZXMoXCJyYW5kb21UZXh0LnR4dFwiKVxucmFuZG9tVGV4dCA8LSBwYXN0ZShyYW5kb21UZXh0LCBjb2xsYXBzZSA9IFwiIFwiKVxucmFuZG9tVGV4dCA8LSB1bmxpc3Qoc3Ryc3BsaXQocmFuZG9tVGV4dCwgXCIgXCIpKVxuYXJlYWNvZGVzIDwtIHJlYWQuY3N2KFwiYXJlYS1jb2Rlcy5jc3ZcIiwgc3RyaW5nc0FzRmFjdG9ycyA9IEYpXG5hcmVhY29kZXMgPC0gYXJlYWNvZGVzW2FyZWFjb2RlcyRSZWdpb24gPT0gXCJDQVwiLF1cbnNldC5zZWVkKDEyMzQzMjIxKVxuZm9yIChpIGluIDE6MTAwMCl7XG4gIHRtcGxsIDwtIHJvdW5kKGxsQ2VudGVyICsgKGxsU2NhbGUqbGxDZW50ZXIqcnVuaWYoMSkpLCA3KVxuICBcbiAgdGV4dFNlbCA8LSBzYW1wbGUuaW50KGxlbmd0aChyYW5kb21UZXh0KSwgMSlcbiAgdGV4dFNlbCA8LSBjKHRleHRTZWwsIHRleHRTZWwgKyBzYW1wbGUuaW50KDcpKVxuICB0ZXh0U2VsW3RleHRTZWwgPiBsZW5ndGgocmFuZG9tVGV4dCldIDwtXG4gICAgdGV4dFNlbFt0ZXh0U2VsID4gbGVuZ3RoKHJhbmRvbVRleHQpXSAtIGxlbmd0aChyYW5kb21UZXh0KVxuICB0bXBSb3cgPC0gZGF0YS5mcmFtZShcbiAgICBtc2lzZG4gPSBwYXN0ZShcIjFcIiwgc2FtcGxlKGFyZWFjb2RlcyRBcmVhLkNvZGUsIDEpLFxuICAgICAgICAgICAgICAgICAgIHBhc3RlKHNhbXBsZShjKDA6OSksIDcsIFQpLCBjb2xsYXBzZSA9IFwiXCIpLCBzZXAgPSBcIlwiKSxcbiAgICB0byA9IHZpcnR1YWxOdW0sXG4gICAgbWVzc2FnZUlkID0gcGFzdGUoc2FtcGxlKGMoMDo5LCBMRVRURVJTWzE6Nl0pLCAxNiwgVCksIGNvbGxhcHNlID0gXCJcIiksXG4gICAgdGV4dCA9IHBhc3RlKHJhbmRvbVRleHRbdGV4dFNlbF0sIGNvbGxhcHNlID0gXCIgXCIpLFxuICAgIHR5cGUgPSBcInRleHRcIixcbiAgICBrZXl3b3JkID0gcmFuZG9tVGV4dFt0ZXh0U2VsWzFdXSxcbiAgICBtZXNzYWdlX3RpbWVzdGFtcCA9IGFzLmNoYXJhY3RlcihTeXMudGltZSgpICsgcnVuaWYoMSkqMWUrMylcbiAgKVxuICBuZXhtb2RhdGEgPC0gcmJpbmQobmV4bW9kYXRhLCB0bXBSb3cpXG59XG5uZXhtb2RhdGEgPC0gbmV4bW9kYXRhW29yZGVyKGdlb2RhdGEkU2VuZGVySUQsIGFzLlBPU0lYY3QoZ2VvZGF0YSRUaW1lKSksXVxuYGBgIn0= -->
+<pre class="r"><code>nexmodata &lt;- data.frame(
+  msisdn = character(),
+  to = character(),
+  messageId = character(),
+  text = character(),
+  type = character(),
+  keyword = character(),
+  message_timestamp = character()
+)
+virtualNum &lt;- &quot;18885975960&quot;
+# llCenter &lt;- c(29.8159954, -95.9617495) # Houston
+# llScale &lt;- 1e-6
+randomText &lt;- readLines(&quot;randomText.txt&quot;)
+randomText &lt;- paste(randomText, collapse = &quot; &quot;)
+randomText &lt;- unlist(strsplit(randomText, &quot; &quot;))
+areacodes &lt;- read.csv(&quot;area-codes.csv&quot;, stringsAsFactors = F)
+areacodes &lt;- areacodes[areacodes$Region == &quot;CA&quot;,]
+set.seed(12343221)
+for (i in 1:1000){
+  tmpll &lt;- round(llCenter + (llScale*llCenter*runif(1)), 7)
+  
+  textSel &lt;- sample.int(length(randomText), 1)
+  textSel &lt;- c(textSel, textSel + sample.int(7))
+  textSel[textSel &gt; length(randomText)] &lt;-
+    textSel[textSel &gt; length(randomText)] - length(randomText)
+  tmpRow &lt;- data.frame(
+    msisdn = paste(&quot;1&quot;, sample(areacodes$Area.Code, 1),
+                   paste(sample(c(0:9), 7, T), collapse = &quot;&quot;), sep = &quot;&quot;),
+    to = virtualNum,
+    messageId = paste(sample(c(0:9, LETTERS[1:6]), 16, T), collapse = &quot;&quot;),
+    text = paste(randomText[textSel], collapse = &quot; &quot;),
+    type = &quot;text&quot;,
+    keyword = randomText[textSel[1]],
+    message_timestamp = as.character(Sys.time() + runif(1)*1e+3)
+  )
+  nexmodata &lt;- rbind(nexmodata, tmpRow)
+}
+nexmodata &lt;- nexmodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]</code></pre>
+<!-- rnb-source-end -->
+<!-- rnb-chunk-end -->
+<!-- rnb-text-begin -->
+<div id="export-1" class="section level2">
+<h2>Export</h2>
+<!-- rnb-text-end -->
+<!-- rnb-chunk-begin -->
+<!-- rnb-chunk-end -->
+</div>
 </div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiU0YgRGlzcnVwdCIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKYGBge3J9Cmdlb2RhdGEgPC0gZGF0YS5mcmFtZSgKICBTZW5kZXJJRCA9IGNoYXJhY3RlcigpLAogIFRpbWUgPSBjaGFyYWN0ZXIoKSwKICBMb25naXR1ZGUgPSBjaGFyYWN0ZXIoKSwKICBMYXRpdHVkZSA9IGNoYXJhY3RlcigpCikKCnNlbmRlcnMgPC0gcGFzdGUoCiAgIlMiLAogIGZvcm1hdEMoYygxOjEwMCksIHdpZHRoID0gNiwgZm9ybWF0ID0gImQiLCBmbGFnID0gIjAiKSwKICBzZXAgPSAiLSIKKQoKbGxDZW50ZXIgPC0gYygyOS44MTU5OTU0LCAtOTUuOTYxNzQ5NSkKbGxTY2FsZSA8LSAxZS01CgpzZXQuc2VlZCgxMjMyMSkKCmZvciAoaSBpbiAxOjEwMDApewogIHRtcGxsIDwtIHJvdW5kKGxsQ2VudGVyICsgKGxsU2NhbGUqbGxDZW50ZXIqcnVuaWYoMSkpLCA3KQogIAogIHRtcFJvdyA8LSBkYXRhLmZyYW1lKAogICAgU2VuZGVySUQgPSBzYW1wbGUoc2VuZGVycywgMSksCiAgICBUaW1lID0gYXMuY2hhcmFjdGVyKFN5cy50aW1lKCkgKyBydW5pZigxKSoxZSszKSwKICAgIExvbmdpdHVkZSA9IHRtcGxsWzFdLAogICAgTGF0aXR1ZGUgPSB0bXBsbFsyXQogICkKICBnZW9kYXRhIDwtIHJiaW5kKGdlb2RhdGEsIHRtcFJvdykKfQoKZ2VvZGF0YSA8LSBnZW9kYXRhW29yZGVyKGdlb2RhdGEkU2VuZGVySUQsIGFzLlBPU0lYY3QoZ2VvZGF0YSRUaW1lKSksXQpgYGAKCiMjIEV4cG9ydAoKYGBge3J9CndyaXRlLmNzdihnZW9kYXRhLCAiZ2VvZGF0YS5jc3YiKQpgYGAKCg==</div>
+<div id="rmd-source-code">LS0tCnRpdGxlOiAiU0YgRGlzcnVwdCIKb3V0cHV0OiBodG1sX25vdGVib29rCi0tLQoKIyBMb2NhdGlvbgoKYGBge3J9Cmdlb2RhdGEgPC0gZGF0YS5mcmFtZSgKICBTZW5kZXJJRCA9IGNoYXJhY3RlcigpLAogIAogIFRpbWUgPSBjaGFyYWN0ZXIoKSwKICBMb25naXR1ZGUgPSBjaGFyYWN0ZXIoKSwKICBMYXRpdHVkZSA9IGNoYXJhY3RlcigpCikKCnNlbmRlcnMgPC0gcGFzdGUoCiAgIlMiLAogIGZvcm1hdEMoYygxOjEwMCksIHdpZHRoID0gNiwgZm9ybWF0ID0gImQiLCBmbGFnID0gIjAiKSwKICBzZXAgPSAiLSIKKQoKbGxDZW50ZXIgPC0gYygyOS44MTU5OTU0LCAtOTUuOTYxNzQ5NSkgIyBIb3VzdG9uCmxsU2NhbGUgPC0gMWUtNgoKc2V0LnNlZWQoMTIzMjEpCgpmb3IgKGkgaW4gMToxMDAwKXsKICB0bXBsbCA8LSByb3VuZChsbENlbnRlciArIChsbFNjYWxlKmxsQ2VudGVyKnJ1bmlmKDEpKSwgNykKICAKICB0bXBSb3cgPC0gZGF0YS5mcmFtZSgKICAgIFNlbmRlcklEID0gc2FtcGxlKHNlbmRlcnMsIDEpLAogICAgVGltZSA9IGFzLmNoYXJhY3RlcihTeXMudGltZSgpICsgcnVuaWYoMSkqMWUrMyksCiAgICBMb25naXR1ZGUgPSB0bXBsbFsxXSwKICAgIExhdGl0dWRlID0gdG1wbGxbMl0KICApCiAgZ2VvZGF0YSA8LSByYmluZChnZW9kYXRhLCB0bXBSb3cpCn0KCmdlb2RhdGEgPC0gZ2VvZGF0YVtvcmRlcihnZW9kYXRhJFNlbmRlcklELCBhcy5QT1NJWGN0KGdlb2RhdGEkVGltZSkpLF0KYGBgCgojIyBFeHBvcnQKCmBgYHtyfQp3cml0ZS5jc3YoZ2VvZGF0YSwgImdlb2RhdGEuY3N2IikKYGBgCgojIE5leG1vCgpgYGB7cn0KbmV4bW9kYXRhIDwtIGRhdGEuZnJhbWUoCiAgbXNpc2RuID0gY2hhcmFjdGVyKCksCiAgdG8gPSBjaGFyYWN0ZXIoKSwKICBtZXNzYWdlSWQgPSBjaGFyYWN0ZXIoKSwKICB0ZXh0ID0gY2hhcmFjdGVyKCksCiAgdHlwZSA9IGNoYXJhY3RlcigpLAogIGtleXdvcmQgPSBjaGFyYWN0ZXIoKSwKICBtZXNzYWdlX3RpbWVzdGFtcCA9IGNoYXJhY3RlcigpCikKCnZpcnR1YWxOdW0gPC0gIjE4ODg1OTc1OTYwIgoKIyBsbENlbnRlciA8LSBjKDI5LjgxNTk5NTQsIC05NS45NjE3NDk1KSAjIEhvdXN0b24KIyBsbFNjYWxlIDwtIDFlLTYKCnJhbmRvbVRleHQgPC0gcmVhZExpbmVzKCJyYW5kb21UZXh0LnR4dCIpCnJhbmRvbVRleHQgPC0gcGFzdGUocmFuZG9tVGV4dCwgY29sbGFwc2UgPSAiICIpCnJhbmRvbVRleHQgPC0gdW5saXN0KHN0cnNwbGl0KHJhbmRvbVRleHQsICIgIikpCgphcmVhY29kZXMgPC0gcmVhZC5jc3YoImFyZWEtY29kZXMuY3N2Iiwgc3RyaW5nc0FzRmFjdG9ycyA9IEYpCmFyZWFjb2RlcyA8LSBhcmVhY29kZXNbYXJlYWNvZGVzJFJlZ2lvbiA9PSAiQ0EiLF0KCnNldC5zZWVkKDEyMzQzMjIxKQoKZm9yIChpIGluIDE6MTAwMCl7CiAgdG1wbGwgPC0gcm91bmQobGxDZW50ZXIgKyAobGxTY2FsZSpsbENlbnRlcipydW5pZigxKSksIDcpCiAgCiAgdGV4dFNlbCA8LSBzYW1wbGUuaW50KGxlbmd0aChyYW5kb21UZXh0KSwgMSkKICB0ZXh0U2VsIDwtIGModGV4dFNlbCwgdGV4dFNlbCArIHNhbXBsZS5pbnQoNykpCiAgdGV4dFNlbFt0ZXh0U2VsID4gbGVuZ3RoKHJhbmRvbVRleHQpXSA8LQogICAgdGV4dFNlbFt0ZXh0U2VsID4gbGVuZ3RoKHJhbmRvbVRleHQpXSAtIGxlbmd0aChyYW5kb21UZXh0KQoKICB0bXBSb3cgPC0gZGF0YS5mcmFtZSgKICAgIG1zaXNkbiA9IHBhc3RlKCIxIiwgc2FtcGxlKGFyZWFjb2RlcyRBcmVhLkNvZGUsIDEpLAogICAgICAgICAgICAgICAgICAgcGFzdGUoc2FtcGxlKGMoMDo5KSwgNywgVCksIGNvbGxhcHNlID0gIiIpLCBzZXAgPSAiIiksCiAgICB0byA9IHZpcnR1YWxOdW0sCiAgICBtZXNzYWdlSWQgPSBwYXN0ZShzYW1wbGUoYygwOjksIExFVFRFUlNbMTo2XSksIDE2LCBUKSwgY29sbGFwc2UgPSAiIiksCiAgICB0ZXh0ID0gcGFzdGUocmFuZG9tVGV4dFt0ZXh0U2VsXSwgY29sbGFwc2UgPSAiICIpLAogICAgdHlwZSA9ICJ0ZXh0IiwKICAgIGtleXdvcmQgPSByYW5kb21UZXh0W3RleHRTZWxbMV1dLAogICAgbWVzc2FnZV90aW1lc3RhbXAgPSBhcy5jaGFyYWN0ZXIoU3lzLnRpbWUoKSArIHJ1bmlmKDEpKjFlKzMpCiAgKQogIG5leG1vZGF0YSA8LSByYmluZChuZXhtb2RhdGEsIHRtcFJvdykKfQoKbmV4bW9kYXRhIDwtIG5leG1vZGF0YVtvcmRlcihnZW9kYXRhJFNlbmRlcklELCBhcy5QT1NJWGN0KGdlb2RhdGEkVGltZSkpLF0KYGBgCgojIyBFeHBvcnQKCmBgYHtyfQpsaWJyYXJ5KFJKU09OSU8pCndyaXRlKHRvSlNPTihuZXhtb2RhdGEpLCAibmV4bW9kYXRhLmpzb24iKQoKd3JpdGUuY3N2KG5leG1vZGF0YSwgIm5leG1vZGF0YS5jc3YiKQpgYGAK</div>
 
 
 
