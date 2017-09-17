@@ -100,7 +100,7 @@ nexmodata <- nexmodata[order(geodata$SenderID, as.POSIXct(geodata$Time)),]
 ## Export
 
 ```{r}
-library(RJSONIO)
+library(jsonlite)
 write(toJSON(nexmodata), "nexmodata.json")
 
 write.csv(nexmodata, "nexmodata.csv")
